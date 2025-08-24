@@ -9,5 +9,5 @@ export default defineConfig({
       '@': '/src'
     }
   },
-  base: '/wedding-invitation/' // Cambia por el nombre de tu repo
+  base: '/Wedding-Invitation/' // Exactamente como aparece en GitHub
 })
