@@ -9,5 +9,5 @@ export default defineConfig({
       '@': '/src'
     }
   },
-  base: '/Wedding-Invitation/' // Exactamente como aparece en GitHub
+  base: './' // Para Vercel (rutas relativas)
 })
