@@ -3,7 +3,7 @@
     <div class="info-item">
       <img class="info-icon" src="@/assets/location-img.png" alt="Location Icon" />
       <h3 class="info-title">Ceremonia Civil y Recepción</h3>
-      <p class="info-description">Hora: 19:00 p.m.</p>
+      <p class="info-description">Hora: 20:00 p.m.</p>
       <p class="info-description">Salón de Eventos Las Hermanas</p>
       <p class="info-description">Loma Clavel, San Lorenzo</p>
       <button class="info-button" @click="openMap">Ver Mapa</button>
@@ -18,6 +18,14 @@
         <button class="info-button" @click="openModal('transferencia')">Transferencia</button>
         <button class="info-button" @click="openModal('lista_deseos')">Lista de deseos</button>
       </div>
+    </div>
+    <div class="info-item">
+      <img class="info-icon" src="@/assets/dresscode.png" alt="Dresscode" />
+      <h3 class="info-title">Dresscode</h3>
+      <p class="info-description">Elegante.</p>
+      <p class="info-description">
+        Prepárense para una fiesta llena de colores, dejen el blanco, rosa y lila para los novios.
+      </p>
     </div>
   </div>
   <div 
@@ -50,12 +58,11 @@
       <div class="number-tickets-circle">
         <p class="number-tickets">2</p>
       </div>
-      <p class="info-description">Lugares en tu honor</p>
+      <p class="info-description">Lugares en tu honor.</p>
     </div>
     <div class="info-item">
       <h3 class="info-title">No niños</h3>
-      <p class="info-description">Amamos a los niños pero hemos reservado sitios solo para adultos.
-        Niños, dulces sueños.
+      <p class="info-description">Por favor, comprenda que esta es una celebración exclusiva para adultos.
       </p>
     </div>
     <div class="info-item">
@@ -268,8 +275,8 @@ window.addEventListener('resize', checkMobileView);
 
 .flowers-top-left {
   position: absolute;
-  bottom: -20px;
-  left: -10px;
+  bottom: 0px;
+  left: 0px;
   width: 150px;
   height: auto;
   transform: rotate(270deg);
@@ -277,8 +284,8 @@ window.addEventListener('resize', checkMobileView);
 
 .flowers-top-right {
   position: absolute;
-  bottom: -20px;
-  right: -10px;
+  bottom: 0px;
+  right: 0px;
   width: 150px;
   height: auto;
   transform: rotate(190deg);
@@ -290,6 +297,11 @@ window.addEventListener('resize', checkMobileView);
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.dresscode-icon {
+  max-width: 200px;
+  max-height: 200px;
 }
 
 @media (max-width: 768px) {

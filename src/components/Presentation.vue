@@ -121,16 +121,16 @@
 
 .flowers-top-left {
   position: absolute;
-  top: -20px;
-  left: -20px;
+  top: 0;
+  left: 0;
   width: 150px;
   height: auto;
 }
 
 .flowers-top-right {
   position: absolute;
-  top: -20px;
-  right: -20px;
+  top: 0;
+  right: 0;
   width: 150px;
   height: auto;
   transform: rotate(110deg);

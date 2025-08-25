@@ -29,7 +29,8 @@
     
     <div class="quote-container">
       <p class="quote-text">
-        El destino nos unió, el amor nos hizo inseparables
+        Construimos nuestra historia con paciencia, compromiso y amor del bueno. Nos acompañamos, crecimos, 
+        formamos una familia. Hoy sellamos lo que ya es eterno.”
       </p>
       <div class="quote-decoration">
         <span class="heart">♥</span>
