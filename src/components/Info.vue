@@ -145,13 +145,18 @@ window.addEventListener('resize', checkMobileView);
   padding: 12px 20px;
   cursor: pointer;
   font-size: 1rem;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: 500;
   margin: 10px 0;
   margin: 10px 5px;
   min-width: 180px;
+  transition: all 0.3s ease;
 }
 
 .info-button:hover {
-  opacity: 0.8; 
+  opacity: 0.9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(174, 156, 143, 0.3);
 }
 
 .info-item {
@@ -179,7 +184,7 @@ window.addEventListener('resize', checkMobileView);
 .info-description {
   font-size: 1rem;
   font-weight: 400;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Georgia', 'Times New Roman', serif;
   color: #444;
   text-align: center;
   padding: 0 20px;
@@ -249,7 +254,7 @@ window.addEventListener('resize', checkMobileView);
   font-size: 2rem;
   font-weight: 700;
   color: var(--primary-color);
-  font-family: 'Arial', sans-serif;
+  font-family: 'Georgia', 'Times New Roman', serif;
   margin: 10px 0;
 }
 
