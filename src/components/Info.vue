@@ -24,7 +24,7 @@
       <h3 class="info-title">Dresscode</h3>
       <p class="info-description">Elegante.</p>
       <p class="info-description">
-        Prepárense para una fiesta llena de colores, dejen el blanco, rosa y lila para los novios.
+        Prepárense para una fiesta llena de colores, dejen el blanco, rosa, lila y azul para los novios.
       </p>
     </div>
   </div>
