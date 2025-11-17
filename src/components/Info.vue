@@ -67,7 +67,8 @@
     </div>
     <div class="info-item">
       <h3 class="info-title">Confirmar asistencia</h3>
-      <p class="info-description">Por favor, confirma tu asistencia a este evento tan especial hasta el 15 de Noviembre.
+      <p class="info-description rsvp-deadline">
+        Por favor, confirma tu asistencia a este evento tan especial hasta el <strong>23 de Noviembre</strong>.
       </p>
        <button 
         class="info-button" 
@@ -135,6 +136,21 @@ window.addEventListener('resize', checkMobileView);
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.rsvp-deadline {
+  background-color: rgba(174, 156, 143, 0.1);
+  padding: 15px 20px;
+  border-radius: 10px;
+  border-left: 4px solid var(--primary-color);
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.rsvp-deadline strong {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .info-button {
